@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.3'
 
 #databases / backends
+gem 'sqlite3-ruby', :require => "sqlite3"
 gem 'mysql2'
 gem 'redis'
 
