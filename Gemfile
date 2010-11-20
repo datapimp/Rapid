@@ -23,6 +23,9 @@ gem 'haml'
 gem 'compass'
 gem 'jammit'
 gem 'html5-boilerplate', ">= 0.2.6"
+gem 'yui-compressor'
+
+#image uploads
 gem 'paperclip'
 
 #authentication / authorization

@@ -287,3 +287,4 @@ DEPENDENCIES
   transitions
   vlad
   vlad-git
+  yui-compressor

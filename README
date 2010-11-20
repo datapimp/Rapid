@@ -16,7 +16,7 @@ For authentication:
   devise, cancan
 
 For javascript / css assets:
-  jammit. yui-compressor
+  jammit. yui-compressor. motherfucking sprockets.
 
 For testing:
   Rspec2 with Spork to speed that shit up
