@@ -21,7 +21,7 @@ gem 'vlad-git'
 gem 'haml'
 gem 'compass'
 gem 'jammit'
-gem 'html5-boilerplate'
+gem 'html5-boilerplate', ">= 0.2.6"
 gem 'paperclip'
 
 #authentication / authorization
