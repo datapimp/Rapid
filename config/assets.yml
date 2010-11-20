@@ -1,0 +1,13 @@
+javascripts:
+  libraries:
+    - public/javascripts/underscore-min.js
+    - public/javascripts/backbone-min.js
+  public:
+    - public/javascripts/rails.js
+    - public/javascripts/plugins.js
+    - public/javascripts/application.js 
+stylesheets:
+  public:
+    - public/stylesheets/style.css 
+  handheld:
+    - public/stylesheets/handheld.css
