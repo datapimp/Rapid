@@ -33,6 +33,9 @@ gem 'devise'
 gem 'cancan'
 gem 'omniauth'
 
+#web sockets
+gem 'juggernaut'
+
 group :development do
   gem 'haml-rails'
   gem 'hpricot', '0.8.2'
@@ -42,6 +45,7 @@ group :development do
   gem 'annotate'
   gem 'spork', '>= 0.9.0.rc2'
 end
+
 
 # when deploying to a non mac environment
 # need to do bundle --without development_mac

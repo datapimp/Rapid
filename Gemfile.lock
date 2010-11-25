@@ -98,6 +98,8 @@ GEM
       yui-compressor (>= 0.9.1)
     json (1.4.6)
     json_pure (1.4.6)
+    juggernaut (2.0.0)
+      redis
     launchy (0.3.7)
       configuration (>= 0.0.5)
       rake (>= 0.8.1)
@@ -268,6 +270,7 @@ DEPENDENCIES
   hpricot (= 0.8.2)
   html5-boilerplate (>= 0.2.6)
   jammit
+  juggernaut
   launchy
   mysql2
   omniauth

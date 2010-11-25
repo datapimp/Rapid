@@ -2,6 +2,7 @@ javascripts:
   libraries:
     - public/javascripts/underscore-min.js
     - public/javascripts/backbone-min.js
+    - publlic/javascripts/juggernaut.js
   public:
     - public/javascripts/rails.js
     - public/javascripts/plugins.js
