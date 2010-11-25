@@ -13,3 +13,4 @@
         = render :partial => 'layouts/footer'
     -# Javascript at the bottom for fast page loading
     = render :partial => 'layouts/javascripts'
+    = render :partial => 'layouts/subscriptions' if sockets_enabled?
