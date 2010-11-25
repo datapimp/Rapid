@@ -6,20 +6,20 @@ I do a lot of prototyping of ideas for web apps. I got tired of configuring new 
 This is a great starting point which allows me to go straight into hacking features which make
 the idea unique.  Like a boss.
 
-*Javascript libraries:
+*Javascript libraries*:
   jquery what else
   underscore and backbone.  fucking love documentcloud's code.  github.com/documentcloud
 
-*For the views:
+*For the views*:
   haml, sass, compass with the html5 boilerplate 'framework' from paul irish ( http://html5boilerplate.com )
 
-*For authentication:
+*For authentication*:
   devise, cancan
 
-*For javascript / css assets:
+*For javascript / css assets*:
   jammit. yui-compressor. motherfucking sprockets.
 
-*For testing:
+*For testing*:
   Rspec2 with Spork to speed that shit up
   Cucumber with capybara / webdriver
   FactoryGirl
@@ -28,7 +28,7 @@ the idea unique.  Like a boss.
   If you're not running a Mac:
   ( Run bundle install --without development_mac )
 
-*For deployment:
+For deployment:
   Vlad the Deployer.  Come on now.
 
 The Good Shit
