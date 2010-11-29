@@ -13,12 +13,14 @@ var RapidApplication = function(){
 
   this.subscribe = function(channel,handler){
     handler = handler || this.default_handler;
-    this.socket.subscribe(channel,handler);
+    this.socket.subscribe(channel,function(data){
+      handler.call(this, data,channel)
+    });
   };
 };
 
 var Application = new RapidApplication;
 
-Application.register("users_show", function(data){
-  console.log('Got Data On Users Show', data);
+Application.register("users_show", function(data,channel){
+  console.log('Got Data On Users Show', data, channel);
 });
