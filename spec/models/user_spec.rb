@@ -1,5 +1,11 @@
 require 'spec_helper'
 
 describe User do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "should specify some sortable columns" do
+    User.sortable_columns.should_not be_empty
+  end
+  
+  it "should provide a query interface" do
+    User.should respond_to(:query)
+  end
 end

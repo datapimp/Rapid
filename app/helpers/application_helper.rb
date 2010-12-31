@@ -26,7 +26,7 @@ module ApplicationHelper
   end
 
   def body_class
-    [controller_name,action_name].join("_")
+    [controller_name,action_name].uniq.join("_")
   end
   
   # if we're looking at a specific record, this will show up in the body id

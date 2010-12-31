@@ -24,6 +24,7 @@ gem 'compass'
 gem 'jammit'
 gem 'html5-boilerplate', ">= 0.2.6"
 gem 'yui-compressor'
+gem 'barista', '>= 0.5.0'
 
 #image uploads
 gem 'paperclip'
@@ -44,6 +45,8 @@ group :development do
   gem 'sprockets'
   gem 'annotate'
   gem 'spork', '>= 0.9.0.rc2'
+  gem 'web-app-theme', '>= 0.6.2'
+  gem 'interactive_editor'
 end
 
 
@@ -53,6 +56,7 @@ group :development_mac do
   gem "autotest-fsevent"
   gem "autotest-growl"
 end
+
 
 group :test do
   gem "factory_girl_rails"
